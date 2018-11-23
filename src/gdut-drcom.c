@@ -102,7 +102,7 @@ static void print_help(char *name)
         "        /___/   "
             );
 
-    fprintf(stdout, "A third-party drcom client for gdut. version %s\n", _VERSION);
+    fprintf(stdout, "A third-party drcom client for gdut. version %s(P)\n", _VERSION);
     fprintf(stdout, "usage:\n");
     fprintf(stdout, "  %s\n", name);
     fprintf(stdout, "    --remote-ip <ip addr>               The server ip.\n");
